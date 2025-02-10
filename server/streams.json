@@ -1,0 +1,13 @@
+[
+    {
+        "id": "bluspring",
+        "name": "BluSpring",
+        "stream_info": {
+            "username": "bluspring",
+            "platform": "twitch"
+        },
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "malaysia"
+    }
+]

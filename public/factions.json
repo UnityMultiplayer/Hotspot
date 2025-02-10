@@ -1,0 +1,18 @@
+{
+    "emberhold": {
+        "name": "Emberhold",
+        "color": "#e60631"
+    },
+    "suncrest": {
+        "name": "Suncrest",
+        "color": "#fee63c"
+    },
+    "fernfall": {
+        "name": "Fernfall",
+        "color": "#8ce41a"
+    },
+    "unity_team": {
+        "name": "Unity Team",
+        "color": "#2a91ff"
+    }
+}
