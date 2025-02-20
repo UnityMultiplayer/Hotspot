@@ -1,17 +1,19 @@
 <template>
-  <div>
-      <Navbar />
-      <NuxtPage />
-  </div>
+    <div class="h-screen">
+        <Navbar />
+        <NuxtPage />
+        <FooterComp />
+        <!--<div class="bg2 h-screen w-screen fixed top-0 left-0 -z-50"></div>-->
+    </div>
 </template>
 
 <style lang="css">
-    .dark-mode body {
-        background: rgb(32, 32, 32);
-    }
+    
+</style>
 
-    body {
-        background: rgb(236, 236, 236);
+<style scoped>
+    .bg2 {
+        background-image: linear-gradient(45deg, var(--bg-gradient-color1), var(--bg-gradient-color2));
     }
 </style>
 

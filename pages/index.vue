@@ -1,11 +1,6 @@
 <template>
-    <Title>Home</Title>
-
-    <main class="w-full">
+    <main class="w-full py-8">
+        <Title>Home</Title>
 
     </main>
 </template>
-
-<style scoped>
-
-</style>
