@@ -1,0 +1,501 @@
+[
+    {
+        "id": "aquelefelix",
+        "name": "aquelefelix",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "brasil",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "aquelefelix",
+            "youtube": "@aquelefelix",
+            "twitter": "aquelefelix",
+            "bluesky": "aquelefelix.bsky.social"
+        }
+    },
+    {
+        "id": "gamehuntress",
+        "name": "Neli",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "any",
+        "socials": {
+            "twitch": "gamehuntress",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "honeydewmelen",
+        "name": "hd",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "any",
+        "socials": {
+            "twitch": "honeydewmelen",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "infiniite8",
+        "name": "Infiniite8",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "infiniite8",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "morgan_is_co",
+        "name": "MorganIsCo",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "morgan_is_co",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "oliverrio_",
+        "name": "OliverRio",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "they/them",
+        "socials": {
+            "twitch": "oliverrio_",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "rufusdotcom",
+        "name": "Ricky",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "they/them",
+        "socials": {
+            "twitch": "rufusdotcom",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "withmayx",
+        "name": "WithMayX",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "withmayx",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "zuite",
+        "name": "Zuite",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "sweden",
+        "pronouns": "she/they",
+        "socials": {
+            "twitch": "zuite",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "coinmonke",
+        "name": "coinmonke",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "",
+        "socials": {
+            "twitch": "coinmonke",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "fymada",
+        "name": "fymada",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "fymada",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "galaxushii",
+        "name": "Xushii",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "galaxushii",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "ikkixsaurio",
+        "name": "ikkixsaurio",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "he/they",
+        "socials": {
+            "twitch": "ikkixsaurio",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "ladyauro",
+        "name": "LadyAuro",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "ladyauro",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "loefars",
+        "name": "Loef",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "loefars",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "luma_star",
+        "name": "lumastar",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "luma_star",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "maddsxp",
+        "name": "Maddsxp",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "maddsxp",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "rheyaheart",
+        "name": "Rheya",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "she/they",
+        "socials": {
+            "twitch": "rheyaheart",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "diang0",
+        "name": "Diango",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "any",
+        "socials": {
+            "twitch": "diang0",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "katsexistance",
+        "name": "KatsExistance",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "any",
+        "socials": {
+            "twitch": "katsexistance",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "lantastic_",
+        "name": "Lantastic",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "he/they",
+        "socials": {
+            "twitch": "lantastic_",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "misticsins",
+        "name": "MisticSins",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "they/it/moss",
+        "socials": {
+            "twitch": "misticsins",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "mxaero",
+        "name": "MxAero",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "she/he",
+        "socials": {
+            "twitch": "mxaero",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "resamokas",
+        "name": "RESAMOKAS",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "resamokas",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "rifty115",
+        "name": "Rifty115",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "he/they",
+        "socials": {
+            "twitch": "rifty115",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "sqyoshi",
+        "name": "sqyoshi",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "he/they/any",
+        "socials": {
+            "twitch": "sqyoshi",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        }
+    },
+    {
+        "id": "adri4ns_",
+        "name": "Adri",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "adri4ns_",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        },
+        "role": "Actor, Project Manager"
+    },
+    {
+        "id": "bluspring",
+        "name": "BluSpring",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "malaysia",
+        "pronouns": "he/they",
+        "socials": {
+            "twitch": "bluspring",
+            "youtube": "@BluSpringg",
+            "twitter": "BluSpringg",
+            "bluesky": "bluspring.xyz"
+        },
+        "role": "Lead Developer"
+    },
+    {
+        "id": "cher0p",
+        "name": "Lex",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "he/she/they/it",
+        "socials": {
+            "twitch": "ch3r0p",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        },
+        "role": "Actor"
+    },
+    {
+        "id": "cypherag",
+        "name": "Cypher",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "cypherag",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        },
+        "role": "Actor, Project Manager"
+    },
+    {
+        "id": "harson_ist",
+        "name": "Harson",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "she/they/he",
+        "socials": {
+            "twitch": "harson_ist",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        },
+        "role": "Actor"
+    },
+    {
+        "id": "songly",
+        "name": "Songly",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "any",
+        "socials": {
+            "twitch": "songly",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        },
+        "role": "Actor"
+    },
+    {
+        "id": "swaggyleilany",
+        "name": "Lei",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "swaggyleilany",
+            "youtube": "",
+            "twitter": "",
+            "bluesky": ""
+        },
+        "role": "Actor"
+    },
+    {
+        "id": "thefox580",
+        "name": "TheFox580",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "any",
+        "socials": {
+            "twitch": "thefox580",
+            "youtube": "",
+            "twitter": "thefox580",
+            "bluesky": "thefox580.bsky.social"
+        },
+        "role": "Developer"
+    },
+    {
+        "id": "theoclouds",
+        "name": "TheoClouds",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "theocloudsislive",
+            "youtube": "",
+            "twitter": "theocloudss",
+            "bluesky": "theoclouds.live"
+        },
+        "role": "Project Manager"
+    }
+]
