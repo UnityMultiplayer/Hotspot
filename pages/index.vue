@@ -5,7 +5,9 @@
         <h2 class="text-center text-5xl pb-3 font-semibold">Members</h2>
         
         <div class="py-3">
-            <h3 class="text-center text-4xl pb-3 text-[#FF4848]">● Currently Live</h3>
+            <h3 class="text-center text-4xl pb-3 text-[#FF4848]">
+                <span class="material-symbols-outlined">circle</span> Currently Live
+            </h3>
             <div class="grid grid-cols-1 md:grid-cols-3 w-5/6 lg:grid-cols-4 xl:grid-cols-5 gap-1 2xl:w-3/4 px-4 mx-auto" v-if="renderLive">
                 <template v-for="id in members.filter(a => (live ?? []).includes(a.id)).map(a => a.id)" :key="id">
                     <MemberCard :id="id" live="true"></MemberCard>
@@ -13,13 +15,11 @@
             </div>
         </div>
         <div class="py-3">
-            <div class="text-center text-4xl pb-3 mx-auto flex">
-                <div class="flex mx-auto">
-                    <img src="/img/icons/zzz.svg" class="h-12">&nbsp;&nbsp;Currently Offline
-                </div>
-            </div>
+            <h3 class="text-center text-4xl pb-3">
+                <span class="material-symbols-outlined">bedtime</span> Currently Offline
+            </h3>
             <div class="grid grid-cols-1 md:grid-cols-3 w-5/6 lg:grid-cols-4 xl:grid-cols-5 gap-1 2xl:w-3/4 px-4 mx-auto" v-if="renderLive">
-                <template v-for="id in members.map(a => a.id)" :key="id">
+                <template v-for="id in members.filter(a => !(live ?? []).includes(a.id)).map(a => a.id)" :key="id">
                     <MemberCard :id="id"></MemberCard>
                 </template>
             </div>
