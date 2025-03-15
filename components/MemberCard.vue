@@ -1,5 +1,5 @@
 <template>
-    <div :class="`p-4 flex unity-button rounded-2xl border-[1px] ${!!live ? 'saturate-100' : 'saturate-[25%]'} ${!!live ? 'brightness-100' : 'brightness-[80%]'} transition-all hover:saturate-100 hover:brightness-[110%]`" :style="borderStyle" :title="member.id">
+    <div :class="`w-2/3 md:w-1/3 lg:w-1/4 2xl:w-1/5 p-4 flex unity-button rounded-2xl border-[1px] ${!!live ? 'saturate-100' : 'saturate-[25%]'} ${!!live ? 'brightness-100' : 'brightness-[80%]'} transition-all hover:saturate-100 hover:brightness-[110%]`" :style="borderStyle" :title="member.id">
         <img class="rounded-full h-12" :src="`/img/creators/${member.id}.png`">
         <p class="px-4">
             <span :style="'color: ' + faction.color" class="font-medium">{{ member.name }}</span>
@@ -12,7 +12,7 @@
                 <!-- @vue-ignore -->
                 <template v-for="social in Object.keys(member.socials)" :key="social">
                     <!-- @vue-ignore -->
-                    <a :href="handleSocial(social)" v-if="member.socials[social] != ''" class="hover:brightness-125" :title="getSocialName(social)"><img :src="`/img/icons/${social}.svg`" :alt="social" class="h-5 px-1 text-red-400"></a>
+                    <a :href="handleSocial(social)" v-if="member.socials[social] != ''" class="hover:brightness-125" :title="getSocialName(social)"><img :src="`/img/icons/${social}.svg`" :alt="social" class="h-5 px-1"></a>
                 </template>
             </div>
         </p>

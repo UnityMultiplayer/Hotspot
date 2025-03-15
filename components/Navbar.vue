@@ -4,7 +4,7 @@
         <NavbarLink to="/about">About</NavbarLink>
         <a href="/" class="text-center hover:brightness-125 align-middle"><img class="mx-auto h-12" src="/icon.svg"></a>
         <NavbarLink to="https://unitymulti.fandom.com/wiki/UnityMultiplayer">Wiki</NavbarLink>
-        <NavbarLink to="/contact">Contact</NavbarLink>
+        <NavbarLink to="/credits">Credits</NavbarLink>
     </div>
 </template>
 <script lang="ts">

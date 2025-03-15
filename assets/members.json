@@ -392,6 +392,21 @@
         "role": "Actor, Project Manager"
     },
     {
+        "id": "alychemist",
+        "name": "Alyssa",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "alychemist_",
+            "youtube": "",
+            "twitter": "alychemist_",
+            "bluesky": "alychemist.bsky.social"
+        },
+        "role": "Artist"
+    },
+    {
         "id": "bluspring",
         "name": "BluSpring",
         "platform": "twitch",
@@ -422,6 +437,21 @@
         "role": "Actor"
     },
     {
+        "id": "connerhawk",
+        "name": "Conner",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "connerhawk",
+            "youtube": "@ConnerhawkLive",
+            "twitter": "",
+            "bluesky": ""
+        },
+        "role": "Video Editor"
+    },
+    {
         "id": "cypherag",
         "name": "Cypher",
         "platform": "twitch",
@@ -437,6 +467,21 @@
         "role": "Actor, Project Manager"
     },
     {
+        "id": "falcaograve",
+        "name": "Falcao",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "falcaogravelive",
+            "youtube": "@Falcaograve",
+            "twitter": "Falcaograve_",
+            "bluesky": ""
+        },
+        "role": "GFX Designer"
+    },
+    {
         "id": "harson_ist",
         "name": "Harson",
         "platform": "twitch",
@@ -450,6 +495,36 @@
             "bluesky": ""
         },
         "role": "Actor"
+    },
+    {
+        "id": "rats_yknow",
+        "name": "Rats",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "rats_yknow",
+            "youtube": "",
+            "twitter": "rats_yknow",
+            "bluesky": ""
+        },
+        "role": "Artist"
+    },
+    {
+        "id": "skribbleshark",
+        "name": "SkribbleShark",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "any",
+        "socials": {
+            "twitch": "",
+            "youtube": "@SkribbleShark",
+            "twitter": "SkribbleShark",
+            "bluesky": ""
+        },
+        "role": "Artist"
     },
     {
         "id": "songly",
@@ -482,6 +557,21 @@
         "role": "Actor"
     },
     {
+        "id": "zanjoe",
+        "name": "Zane",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "he/they/any",
+        "socials": {
+            "twitch": "zanjoeuwu",
+            "youtube": "",
+            "twitter": "zanjoeuwu",
+            "bluesky": "zanjoe.bsky.social"
+        },
+        "role": "Lead GFX Designer"
+    },
+    {
         "id": "thefox580",
         "name": "TheFox580",
         "platform": "twitch",
@@ -509,6 +599,6 @@
             "twitter": "theocloudss",
             "bluesky": "theoclouds.live"
         },
-        "role": "Project Manager"
+        "role": "Owner, Project Manager"
     }
 ]

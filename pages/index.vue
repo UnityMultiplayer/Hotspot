@@ -8,7 +8,7 @@
             <h3 class="text-center text-4xl pb-3 text-[#FF4848]">
                 <span class="material-symbols-outlined">circle</span> Currently Live
             </h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 w-5/6 lg:grid-cols-4 xl:grid-cols-5 gap-1 2xl:w-3/4 px-4 mx-auto" v-if="renderLive">
+            <div class="gap-1 flex flex-wrap justify-center 2xl:w-5/6 px-4 mx-auto text-left" v-if="renderLive">
                 <template v-for="id in members.filter(a => (live ?? []).includes(a.id)).map(a => a.id)" :key="id">
                     <MemberCard :id="id" live="true"></MemberCard>
                 </template>
@@ -18,7 +18,7 @@
             <h3 class="text-center text-4xl pb-3">
                 <span class="material-symbols-outlined">bedtime</span> Currently Offline
             </h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 w-5/6 lg:grid-cols-4 xl:grid-cols-5 gap-1 2xl:w-3/4 px-4 mx-auto" v-if="renderLive">
+            <div class="gap-1 flex flex-wrap justify-center 2xl:w-5/6 px-4 mx-auto text-left" v-if="renderLive">
                 <template v-for="id in members.filter(a => !(live ?? []).includes(a.id)).map(a => a.id)" :key="id">
                     <MemberCard :id="id"></MemberCard>
                 </template>
