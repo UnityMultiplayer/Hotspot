@@ -31,6 +31,7 @@ async function check() {
 
                     if (!!member && !live.includes(member.id)) {
                         live.push(member.id);
+                    } else if (!!member && live.includes(member.id)) {
                         livePeople.push(member.id);
                     }
                 }
