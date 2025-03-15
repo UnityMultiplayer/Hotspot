@@ -34,23 +34,14 @@
         async mounted() {
             this.live = [];
             //@ts-ignore
-            this.live = (await useFetch('/api/check_live')).data ?? [];
+            this.live = (await $fetch('/api/check_live')) ?? [];
             this.renderLive = false;
             await this.$nextTick();
             this.renderLive = true;
 
-            setTimeout(async () => {
-                //@ts-ignore
-                this.live = (await useFetch('/api/check_live')).data ?? [];
-                this.renderLive = false;
-                await this.$nextTick();
-                this.renderLive = true;
-            }, 500);
-
             //@ts-ignore
             this.timer = setInterval(async () => {
-                //@ts-ignore
-                this.live = (await useFetch('/api/check_live')).data ?? [];
+                this.live = (await $fetch('/api/check_live')) ?? [];
                 this.renderLive = false;
                 await this.$nextTick();
                 this.renderLive = true;

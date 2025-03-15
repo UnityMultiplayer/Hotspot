@@ -5,9 +5,13 @@ import TwitchRest from '../utils/TwitchRest';
 const auth = new TwitchAuth();
 
 let live: string[] = [];
+let lastCheck = -1;
 
 async function check() {
     const members = JSON.parse(fs.readFileSync('assets/members.json').toString());
+
+    if (Date.now() - lastCheck < 1000 * 60 * 2)
+        return; // Ratelimit this
 
     try {
         // @ts-ignore
@@ -31,9 +35,10 @@ async function check() {
                     }
                 }
             }
-        }
 
-        live = live.filter(a => livePeople.includes(a));
+            live = live.filter(a => livePeople.includes(a));
+            lastCheck = Date.now();
+        }
     } catch (e) {
         console.error(`Failed to get check live information!`, e);
     }
