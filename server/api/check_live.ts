@@ -26,6 +26,7 @@ async function check() {
                     const member = members.find(m => m.socials.twitch == stream.user_login);
 
                     if (!!member && !live.includes(member.id)) {
+                        live.push(member.id);
                         livePeople.push(member.id);
                     }
                 }

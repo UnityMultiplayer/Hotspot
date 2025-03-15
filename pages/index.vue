@@ -35,7 +35,17 @@
             this.live = [];
             //@ts-ignore
             this.live = (await useFetch('/api/check_live')).data ?? [];
+            this.renderLive = false;
+            await this.$nextTick();
             this.renderLive = true;
+
+            setTimeout(async () => {
+                //@ts-ignore
+                this.live = (await useFetch('/api/check_live')).data ?? [];
+                this.renderLive = false;
+                await this.$nextTick();
+                this.renderLive = true;
+            }, 500);
 
             //@ts-ignore
             this.timer = setInterval(async () => {
@@ -44,7 +54,7 @@
                 this.renderLive = false;
                 await this.$nextTick();
                 this.renderLive = true;
-            }, 3 * 60 * 1000);
+            }, 1 * 60 * 1000);
         },
         unmounted() {
             //@ts-ignore
