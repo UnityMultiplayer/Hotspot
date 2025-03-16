@@ -14,8 +14,7 @@ async function check() {
         return; // Ratelimit this
 
     try {
-        // @ts-ignore
-        const url = `https://api.twitch.tv/helix/streams?user_login=${members.filter(c => !!c.socials.twitch).map(c => c.socials.twitch).join('&user_login=')}`;
+        const url = `https://api.twitch.tv/helix/streams?user_login=${members.filter((c: Record<string, any>) => !!c.socials.twitch).map((c: Record<string, any>) => c.socials.twitch).join('&user_login=')}`;
         const data = await TwitchRest.get(url);
 
         let livePeople: string[] = [];
@@ -26,8 +25,7 @@ async function check() {
             
             if (currentLive.length > 0) {
                 for (const stream of currentLive) {
-                    // @ts-ignore
-                    const member = members.find(m => m.socials.twitch == stream.user_login);
+                    const member = members.find((m: Record<string, any>) => m.socials.twitch == stream.user_login);
 
                     if (!!member && !live.includes(member.id)) {
                         live.push(member.id);
