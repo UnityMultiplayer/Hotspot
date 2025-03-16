@@ -2,14 +2,14 @@ import fs from 'fs';
 import TwitchAuth from '../utils/TwitchAuth';
 import TwitchRest from '../utils/TwitchRest';
 
+import members from "~/assets/members.json";
+
 const auth = new TwitchAuth();
 
 let live: string[] = [];
 let lastCheck = -1;
 
 async function check() {
-    const members = JSON.parse(fs.readFileSync('assets/members.json').toString());
-
     if (Date.now() - lastCheck < 1000 * 60 * 2)
         return; // Ratelimit this
 
