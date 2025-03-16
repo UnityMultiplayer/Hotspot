@@ -25,3 +25,6 @@ logs
 
 # Directory used for storing scripts and stuff for downloads
 other/
+
+# Hide secrets from the public eye
+token.json

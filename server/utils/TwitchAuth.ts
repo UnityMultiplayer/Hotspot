@@ -11,7 +11,7 @@ export default class TwitchAuth {
     public static validationInterval: NodeJS.Timeout | null = null;
     public static lastValidation: number = 0;
 
-    public static tokenData: TokenData | null = fs.existsSync(`server/token.json`) ? JSON.parse(fs.readFileSync('server/token.json').toString()) : null;
+    public static tokenData: TokenData | null = fs.existsSync(`token.json`) ? JSON.parse(fs.readFileSync('token.json').toString()) : null;
     public static clientId: string = process.env.TWITCH_CLIENT_ID!;
 
     async getToken(): Promise<string> {
@@ -68,7 +68,7 @@ export default class TwitchAuth {
             expiresOn: Date.now() + (data.expires_in * 1000)
         };
 
-        fs.writeFileSync(`server/token.json`, JSON.stringify(TwitchAuth.tokenData, null, 4));
+        fs.writeFileSync(`token.json`, JSON.stringify(TwitchAuth.tokenData, null, 4));
 
         // Need to do this to make sure the token is valid
         if (!(await this.validateToken(true))) {
