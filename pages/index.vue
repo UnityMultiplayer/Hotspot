@@ -28,7 +28,7 @@
 </template>
 
 <script lang="ts">
-    import members from '~/assets/members.json';
+    import membersData from '~/assets/members.json';
 
     export default {
         async mounted() {
@@ -53,7 +53,7 @@
         },
         data() {
             return {
-                members: members.filter(a => a.faction != 'unity_team'),
+                members: membersData.filter(a => a.faction != 'unity_team'),
                 live: [''],
                 renderLive: false,
                 timer: null
