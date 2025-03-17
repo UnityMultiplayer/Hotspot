@@ -18,3 +18,9 @@
         </p>
     </main>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+    name: 'About'
+});
+</script>

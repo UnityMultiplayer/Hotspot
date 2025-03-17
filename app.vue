@@ -21,6 +21,20 @@
     const route = useRoute();
 
     useHead({
-        titleTemplate: '%s - Unity Multiplayer'
+        titleTemplate: '%s - Unity Multiplayer',
+        meta: [
+            {
+                property: 'og:title',
+                content: `${route.meta.name} - Unity Multiplayer`
+            },
+            {
+                property: 'twitter:title',
+                content: `${route.meta.name} - Unity Multiplayer`
+            },
+            {
+                property: 'title',
+                content: `${route.meta.name} - Unity Multiplayer`
+            }
+        ]
     });
 </script>

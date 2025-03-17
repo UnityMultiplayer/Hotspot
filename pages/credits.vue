@@ -60,3 +60,9 @@ a:hover {
     filter: brightness(125%);
 }
 </style>
+
+<script setup lang="ts">
+definePageMeta({
+    name: 'Credits'
+});
+</script>
