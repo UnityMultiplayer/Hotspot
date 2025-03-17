@@ -47,6 +47,8 @@
                 SMP Unity S1 and S2 logos created by <a href="https://twitter.com/DamienPixelated">DamienPixelated</a>.
                 <br>
                 Additional textures created by <a href="https://twitter.com/RPorotos">RPorotos</a>.
+                <br>
+                Unity Hotspot hosted on <a href="https://devos.one">devOS</a>, with help from <a href="https://storm.artrinix.xyz">CephalonCosmic</a>.
             </p>
         </div>
     </main>
