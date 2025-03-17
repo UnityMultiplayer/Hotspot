@@ -18,6 +18,9 @@
                 <a href="https://discord.gg/ECGejX4WFA" class="hover:brightness-125" title="Discord">
                     <img :src="`/img/icons/official/discord.svg`" alt="Discord" class="h-5 px-1">
                 </a>
+                <a href="https://github.com/UnityMultiplayer" class="hover:brightness-125" title="GitHub">
+                    <img :src="`/img/icons/official/github.svg`" alt="GitHub" class="h-5 px-1">
+                </a>
             </div>
         </div>
 
