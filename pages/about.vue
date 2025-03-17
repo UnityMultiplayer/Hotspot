@@ -14,7 +14,7 @@
             in September 2024, which drew significant attention from major creators and the broader community, further elevating Unity's visibility.
             <br><br>
             Season 3 is set to launch on March 29th, 2025, on the Sundial Islands, featuring a larger island, new creators, and a host of overhauled and new features, 
-            all running on Fabric 1.21.1, created by BluSpring and TheFox580.
+            all running on Fabric 1.21.1, with mods created by BluSpring and TheFox580.
         </p>
     </main>
 </template>
