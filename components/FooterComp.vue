@@ -1,8 +1,10 @@
 <template>
     <div class="w-full h-16 text-center text-xl">
-        <span class=" font-light"><a href="https://github.com/UnityMultiplayer/Hotspot" class="hover:underline hover:brightness-125">Unity Hotspot</a> &nbsp;&nbsp;|&nbsp;&nbsp; A Unity Production</span>
+        <div class="font-light py-2">
+            <a href="https://github.com/UnityMultiplayer/Hotspot" class="hover:underline hover:brightness-125">Unity Hotspot</a> &nbsp;&nbsp;|&nbsp;&nbsp; A Unity Production
+        </div>
         
-        <div class="mx-auto flex py-4">
+        <div class="mx-auto flex py-2">
             <div class="flex mx-auto">
                 <a href="https://twitter.com/UnityProduct" class="hover:brightness-125" title="Twitter">
                     <img :src="`/img/icons/official/twitter.svg`" alt="Twitter" class="h-5 px-1">
@@ -17,6 +19,10 @@
                     <img :src="`/img/icons/official/discord.svg`" alt="Discord" class="h-5 px-1">
                 </a>
             </div>
+        </div>
+
+        <div class="font-light text-sm py-2">
+            Unity Multiplayer is not an official Minecraft service and is not affiliated, associated with, or approved by Mojang Studios or Microsoft.
         </div>
     </div>
 </template>
