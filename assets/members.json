@@ -238,6 +238,20 @@
         }
     },
     {
+        "id": "meta64",
+        "name": "meta64",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "metasixtyfour",
+            "youtube": "@meta64",
+            "twitter": "metasixtyfour",
+            "bluesky": "metasixtyfour.ca"
+        }
+    },
+    {
         "id": "rheyaheart",
         "name": "Rheya",
         "platform": "twitch",
@@ -361,6 +375,20 @@
             "youtube": "@RIIMO",
             "twitter": "rafamtzo_",
             "bluesky": ""
+        }
+    },
+    {
+        "id": "seedlingscorner",
+        "name": "Seedling",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "",
+        "socials": {
+            "twitch": "seedlingscorner",
+            "youtube": "",
+            "twitter": "SeedlingsCorner",
+            "bluesky": "seedlingscorner.bsky.social"
         }
     },
     {
