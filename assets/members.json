@@ -84,6 +84,20 @@
         }
     },
     {
+        "id": "phaanity",
+        "name": "Phan",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "phaanity",
+            "youtube": "@phaanity",
+            "twitter": "phaanity",
+            "bluesky": "phaanity.bsky.social"
+        }
+    },
+    {
         "id": "rufusdotcom",
         "name": "Ricky",
         "platform": "twitch",
@@ -280,6 +294,20 @@
         }
     },
     {
+        "id": "fiveeyesstreams",
+        "name": "Fives",
+        "platform": "twitch",
+        "faction": "fernfall",
+        "region": "",
+        "pronouns": "she/her",
+        "socials": {
+            "twitch": "fiveeyesstreams",
+            "youtube": "@fiveeyesstreams",
+            "twitter": "fiveeyesstreams",
+            "bluesky": "fiveeyesstreams.bsky.social"
+        }
+    },
+    {
         "id": "katsexistance",
         "name": "KatsExistance",
         "platform": "twitch",
@@ -327,7 +355,7 @@
         "platform": "twitch",
         "faction": "fernfall",
         "region": "",
-        "pronouns": "she/he",
+        "pronouns": "they/he",
         "socials": {
             "twitch": "mxaero",
             "youtube": "@mxaero",
