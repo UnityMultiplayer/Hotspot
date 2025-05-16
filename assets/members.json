@@ -14,6 +14,20 @@
         }
     },
     {
+        "id": "astridmensional",
+        "name": "Astrid",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "She/Her",
+        "socials": {
+            "twitch": "astridmensional",
+            "youtube": "@astridmensional",
+            "twitter": "Astridmensional",
+            "bluesky": ""
+        }
+    },
+    {
         "id": "gamehuntress",
         "name": "Neli",
         "platform": "twitch",
@@ -53,6 +67,20 @@
             "youtube": "@infiniite8",
             "twitter": "Infiniite8",
             "bluesky": "infiniite8.bsky.social"
+        }
+    },
+    {
+        "id": "maddieawesome",
+        "name": "MaddieAWESOME",
+        "platform": "twitch",
+        "faction": "emberhold",
+        "region": "",
+        "pronouns": "She/They",
+        "socials": {
+            "twitch": "maddieawesome_",
+            "youtube": "@MaddieAWESOME",
+            "twitter": "MaddieAWESOMEYT",
+            "bluesky": "maddieawesome.bsky.social"
         }
     },
     {
@@ -277,6 +305,20 @@
             "youtube": "@rheyaHeart",
             "twitter": "rheyaHeart",
             "bluesky": "rheyaheart.bsky.social"
+        }
+    },
+    {
+        "id": "romstantine",
+        "name": "Romstantine",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "He/Him",
+        "socials": {
+            "twitch": "romstantine",
+            "youtube": "@Romstantine",
+            "twitter": "Romstantine",
+            "bluesky": ""
         }
     },
     {
