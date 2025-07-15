@@ -3,24 +3,15 @@
     <Title>Credits</Title>
 
     <div>
-      <h3 class="text-4xl font-semibold py-4">Project Managers</h3>
+      <h3 class="text-4xl font-semibold py-4">Project Leads</h3>
       <MembersSection>
         <MemberCard id="theoclouds" />
-        <MemberCard id="adri4ns_" />
         <MemberCard id="cypherag" />
+        <MemberCard id="adri4ns_" />
       </MembersSection>
     </div>
     <div>
-      <h3 class="text-4xl font-semibold py-4">Actors</h3>
-      <MembersSection>
-        <MemberCard id="cher0p" />
-        <MemberCard id="harson_ist" />
-        <MemberCard id="songly" />
-        <MemberCard id="swaggyleilany" />
-      </MembersSection>
-    </div>
-    <div>
-      <h3 class="text-4xl font-semibold py-4">Developers</h3>
+      <h3 class="text-4xl font-semibold py-4">Development Branch</h3>
       <MembersSection>
         <MemberCard id="bluspring" />
         <MemberCard id="thefox580" />
@@ -28,14 +19,25 @@
       </MembersSection>
     </div>
     <div>
-      <h3 class="text-4xl font-semibold py-4">Media</h3>
+      <h3 class="text-4xl font-semibold py-4">Creative Branch</h3>
       <MembersSection>
         <MemberCard id="zanjoe" />
         <MemberCard id="falcaograve" />
+        <MemberCard id="rats_yknow" />
+        <MemberCard id="skylarexe" />
+        <MemberCard id="connerhawk" />
         <MemberCard id="alychemist" />
         <MemberCard id="skribbleshark" />
-        <MemberCard id="rats_yknow"/>
-        <MemberCard id="connerhawk" />
+      </MembersSection>
+    </div>
+    <div>
+      <h3 class="text-4xl font-semibold py-4">Acting Branch</h3>
+      <MembersSection>
+        <MemberCard id="songly" />
+        <MemberCard id="harson_ist" />
+        <MemberCard id="cher0p" />
+        <MemberCard id="swaggyleilany" />
+        <MemberCard id="insaneorbitzz" />
       </MembersSection>
     </div>
     <div>

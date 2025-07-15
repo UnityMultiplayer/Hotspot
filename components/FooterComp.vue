@@ -40,5 +40,5 @@
   import TikTok from '~/public/img/icons/official/tiktok.svg'
   import BlueSky from '~/public/img/icons/official/bluesky.svg'
   import Discord from '~/public/img/icons/official/discord.svg'
-  import GitHub from '~/public/img/icons/official/github.svg'
+  import GitHub from 'public/img/icons/github.svg'
 </script>

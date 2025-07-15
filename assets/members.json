@@ -553,6 +553,37 @@
         "role": "Actor"
     },
     {
+        "id": "skylarexe",
+        "name": "Skye",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "they/she",
+        "socials": {
+            "twitch": "skyelander_",
+            "youtube": "",
+            "twitter": "skylarexe",
+            "bluesky": "",
+            "github": "skyeredwood"
+        },
+        "role": "Composer"
+    },
+    {
+        "id": "insaneorbitzz",
+        "name": "Orbitzz",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "insaneorbitzz",
+            "youtube": "insaneorbitzz",
+            "twitter": "InsaneOrbitzz",
+            "bluesky": ""
+        },
+        "role": "Presenter"
+    },
+    {
         "id": "rats_yknow",
         "name": "Rats",
         "platform": "twitch",
@@ -653,7 +684,8 @@
             "twitch": "cephaloncosmic",
             "youtube": "cephaloncosmic",
             "twitter": "CephalonCosmic",
-            "bluesky": "storm.artrinix.xyz"
+            "bluesky": "storm.artrinix.xyz",
+            "github": "CephalonCosmic"
         },
         "role": "Developer, Systems Administrator"
     },
