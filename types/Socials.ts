@@ -6,6 +6,7 @@ export type Socials = {
     twitter?: string,
     website?: string,
     youtube?: string,
+    instagram?: string,
 }
 
-export type SocialsString = 'bluesky' | 'discord' | 'tiktok' | 'twitch' | 'twitter' |  'website' | 'youtube'
+export type SocialsString = 'bluesky' | 'discord' | 'tiktok' | 'twitch' | 'twitter' |  'website' | 'youtube' | 'instagram'

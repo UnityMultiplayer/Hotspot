@@ -10,6 +10,10 @@ export default function (member: Record<string, any>, social: string): string {
             return `https://youtube.com/${socialHandle}`;
         case 'twitch':
             return `https://twitch.tv/${socialHandle}`;
+        case 'github':
+            return `https://github.com/${socialHandle}`;
+        case 'instagram':
+            return `https://instagram.com/${socialHandle}`;
         default:
             return socialHandle;
     }
