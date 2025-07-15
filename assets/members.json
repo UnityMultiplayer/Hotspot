@@ -433,6 +433,21 @@
         }
     },
     {
+        "id": "paeadams",
+        "name": "Paeadams",
+        "platform": "twitch",
+        "faction": "suncrest",
+        "region": "",
+        "pronouns": "he/him",
+        "socials": {
+            "twitch": "paeadams",
+            "youtube": "",
+            "twitter": "Paeadams",
+            "bluesky": "paeadams.bsky.social",
+            "instagram": "paeadams"
+        }
+    },
+    {
         "id": "adri4ns_",
         "name": "Adri",
         "platform": "twitch",
