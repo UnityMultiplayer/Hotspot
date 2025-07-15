@@ -28,20 +28,6 @@
         }
     },
     {
-        "id": "gamehuntress",
-        "name": "Neli",
-        "platform": "twitch",
-        "faction": "emberhold",
-        "region": "",
-        "pronouns": "any",
-        "socials": {
-            "twitch": "gamehuntress",
-            "youtube": "",
-            "twitter": "Huntressgamer",
-            "bluesky": "gamehuntress.bsky.social"
-        }
-    },
-    {
         "id": "honeydewmelen",
         "name": "hd",
         "platform": "twitch",
@@ -98,20 +84,6 @@
         }
     },
     {
-        "id": "oliverrio_",
-        "name": "OliverRio",
-        "platform": "twitch",
-        "faction": "emberhold",
-        "region": "",
-        "pronouns": "they/she",
-        "socials": {
-            "twitch": "oliverrio_",
-            "youtube": "@oliverrio",
-            "twitter": "NotOliverRio",
-            "bluesky": "oliverrio.bsky.social"
-        }
-    },
-    {
         "id": "phaanity",
         "name": "Phan",
         "platform": "twitch",
@@ -137,20 +109,6 @@
             "youtube": "@RufusDotCom_",
             "twitter": "RufusDotCom_",
             "bluesky": "rufusdotcom.bsky.social"
-        }
-    },
-    {
-        "id": "withmayx",
-        "name": "WithMayX",
-        "platform": "twitch",
-        "faction": "emberhold",
-        "region": "",
-        "pronouns": "she/her",
-        "socials": {
-            "twitch": "withmayx",
-            "youtube": "@WithMay",
-            "twitter": "WithMayX",
-            "bluesky": "withmayx.com"
         }
     },
     {
