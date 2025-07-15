@@ -13,8 +13,6 @@
     <div>
       <h3 class="text-4xl font-semibold py-4">Actors</h3>
       <MembersSection>
-        <MemberCard id="adri4ns_" />
-        <MemberCard id="cypherag" />
         <MemberCard id="cher0p" />
         <MemberCard id="harson_ist" />
         <MemberCard id="songly" />
@@ -26,6 +24,7 @@
       <MembersSection>
         <MemberCard id="bluspring" />
         <MemberCard id="thefox580" />
+        <memberCard id="cephaloncosmic" />
       </MembersSection>
     </div>
     <div>
