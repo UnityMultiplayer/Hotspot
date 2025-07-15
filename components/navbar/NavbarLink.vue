@@ -5,8 +5,6 @@
         </NuxtLink>
     </div>
 </template>
-<script lang="ts">
-    export default {
-        props: ['to']
-    }
+<script setup lang="ts">
+  const props = defineProps(['to'])
 </script>

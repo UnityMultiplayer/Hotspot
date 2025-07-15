@@ -685,6 +685,21 @@
         "role": "Developer"
     },
     {
+        "id": "cephaloncosmic",
+        "name": "Storm",
+        "platform": "twitch",
+        "faction": "unity_team",
+        "region": "",
+        "pronouns": "she/they",
+        "socials": {
+            "twitch": "cephaloncosmic",
+            "youtube": "cephaloncosmic",
+            "twitter": "CephalonCosmic",
+            "bluesky": "storm.artrinix.xyz"
+        },
+        "role": "Developer, Systems Administrator"
+    },
+    {
         "id": "theoclouds",
         "name": "TheoClouds",
         "platform": "twitch",
