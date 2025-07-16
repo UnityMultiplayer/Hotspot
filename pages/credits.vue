@@ -5,7 +5,7 @@
     <div>
       <h3 class="text-4xl font-semibold py-4">Project Leads</h3>
       <MembersSection>
-        <template v-for="id in members.filter(m => m.faction.endsWith('lead')).map(m => m.id).sort(nameSort).reverse()" :key="id">
+        <template v-for="id in members.filter(m => m.faction.endsWith('lead')).map(m => m.id).sort(alphabeticalSort).reverse()" :key="id">
           <MemberCard :id="id" :is-live="true" />
         </template>
       </MembersSection>
