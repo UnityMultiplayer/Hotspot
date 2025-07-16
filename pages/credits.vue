@@ -5,39 +5,39 @@
     <div>
       <h3 class="text-4xl font-semibold py-4">Project Leads</h3>
       <MembersSection>
-        <MemberCard id="theoclouds" />
-        <MemberCard id="cypherag" />
-        <MemberCard id="adri4ns_" />
+        <MemberCard id="theoclouds" :is-live="true" />
+        <MemberCard id="cypherag" :is-live="true" />
+        <MemberCard id="adri4ns_" :is-live="true" />
       </MembersSection>
     </div>
     <div>
       <h3 class="text-4xl font-semibold py-4">Development Branch</h3>
       <MembersSection>
-        <MemberCard id="bluspring" />
-        <MemberCard id="thefox580" />
-        <memberCard id="cephaloncosmic" />
+        <MemberCard id="bluspring" :is-live="true" />
+        <MemberCard id="thefox580" :is-live="true" />
+        <memberCard id="cephaloncosmic" :is-live="true" />
       </MembersSection>
     </div>
     <div>
       <h3 class="text-4xl font-semibold py-4">Creative Branch</h3>
       <MembersSection>
-        <MemberCard id="zanjoe" />
-        <MemberCard id="falcaograve" />
-        <MemberCard id="rats_yknow" />
-        <MemberCard id="skylarexe" />
-        <MemberCard id="connerhawk" />
-        <MemberCard id="alychemist" />
-        <MemberCard id="skribbleshark" />
+        <MemberCard id="zanjoe" :is-live="true" />
+        <MemberCard id="falcaograve" :is-live="true" />
+        <MemberCard id="rats_yknow" :is-live="true" />
+        <MemberCard id="skylarexe" :is-live="true" />
+        <MemberCard id="connerhawk" :is-live="true" />
+        <MemberCard id="alychemist" :is-live="true" />
+        <MemberCard id="skribbleshark" :is-live="true" />
       </MembersSection>
     </div>
     <div>
       <h3 class="text-4xl font-semibold py-4">Acting Branch</h3>
       <MembersSection>
-        <MemberCard id="songly" />
-        <MemberCard id="harson_ist" />
-        <MemberCard id="cher0p" />
-        <MemberCard id="swaggyleilany" />
-        <MemberCard id="insaneorbitzz" />
+        <MemberCard id="songly" :is-live="true" />
+        <MemberCard id="harson_ist" :is-live="true" />
+        <MemberCard id="cher0p" :is-live="true" />
+        <MemberCard id="swaggyleilany" :is-live="true" />
+        <MemberCard id="insaneorbitzz" :is-live="true" />
       </MembersSection>
     </div>
     <div>
@@ -49,7 +49,7 @@
         <br>
         Additional textures created by <a href="https://twitter.com/RPorotos">RPorotos</a>.
         <br>
-        Unity Hotspot hosted on <a href="https://devos.one">devOS</a>, with help from <a href="https://storm.artrinix.xyz">CephalonCosmic</a>.
+        Unity Multiplayer & Hotspot is hosted on <a href="https://devos.one">devOS</a> <3.
       </p>
     </div>
     </main>

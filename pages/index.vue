@@ -10,7 +10,7 @@
             </h3>
             <MembersSection v-if="status !== 'pending'">
                 <template v-for="id in members.filter(a => (live ?? []).includes(a.id)).map(a => a.id)" :key="id">
-                    <MemberCard :id="id" :live="true"></MemberCard>
+                    <MemberCard :id="id" :isLive="true"></MemberCard>
                 </template>
             </MembersSection>
         </div>
