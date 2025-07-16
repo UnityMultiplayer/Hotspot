@@ -36,17 +36,17 @@
   }
 
   *::-webkit-scrollbar {
-    width: 4px;
+    width: 0.6rem;
   }
 
   *::-webkit-scrollbar-track {
-    background-color: #292929;
+    background-color: var(--text-buttons);
     border-radius: 25px;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #7a7a7a;
-    border-radius: 100px;
+    background-color: var(--text-title);
+    border-radius: 25px 0 0 25px;
   }
 
   /* Light mode */
