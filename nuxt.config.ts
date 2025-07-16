@@ -1,12 +1,19 @@
+import tailwindcss from "@tailwindcss/vite";
+
 const description = 'Unity Multiplayer is a multilingual factions Minecraft server for creators, which also features the first free and public live translation mod UnityTranslate.';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
-    devtools: { enabled: false },
-    modules: ['@nuxtjs/tailwindcss'],
+    devtools: { enabled: true },
     css: [
+        '~/assets/css/main.css'
     ],
+    vite: {
+        plugins: [
+            tailwindcss()
+        ]
+    },
     app: {
         head: {
             link: [
