@@ -13,7 +13,7 @@
     <div>
       <h3 class="text-4xl font-semibold py-4">Development Branch</h3>
       <MembersSection>
-        <template v-for="id in members.filter(m => m.faction.endsWith('development')).map(m => m.id).sort(nameSort)" :key="id">
+        <template v-for="id in members.filter(m => m.faction.endsWith('development')).map(m => m.id).sort(alphabeticalSort)" :key="id">
           <MemberCard :id="id" :is-live="true" />
         </template>
       </MembersSection>
@@ -21,7 +21,7 @@
     <div>
       <h3 class="text-4xl font-semibold py-4">Creative Branch</h3>
       <MembersSection>
-        <template v-for="id in members.filter(m => m.faction.endsWith('creative')).map(m => m.id).sort(nameSort)" :key="id">
+        <template v-for="id in members.filter(m => m.faction.endsWith('creative')).map(m => m.id).sort(alphabeticalSort)" :key="id">
           <MemberCard :id="id" :is-live="true" />
         </template>
       </MembersSection>
@@ -29,7 +29,7 @@
     <div>
       <h3 class="text-4xl font-semibold py-4">Acting Branch</h3>
       <MembersSection>
-        <template v-for="id in members.filter(m => m.faction.endsWith('acting')).map(m => m.id).sort(nameSort)" :key="id">
+        <template v-for="id in members.filter(m => m.faction.endsWith('acting')).map(m => m.id).sort(alphabeticalSort)" :key="id">
           <MemberCard :id="id" :is-live="true" />
         </template>
       </MembersSection>
@@ -63,21 +63,9 @@ import MembersSection from "~/components/members/MembersSection.vue";
 import MemberCard from "~/components/members/MemberCard.vue";
 
 import membersData from '~/assets/members.json';
+import alphabeticalSort from "~/utils/alphabeticalSort";
 
 const members = ref(membersData.filter(m => m.faction.startsWith('unity_team')))
-
-function nameSort(a: string, b: string): number {
-  if (a < b) {
-    return -1
-  }
-
-  if (a > b) {
-    return 1
-  }
-
-  return 0
-}
-
 
 definePageMeta({
     name: 'Credits'
