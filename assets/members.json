@@ -488,7 +488,8 @@
             "twitch": "bluspring",
             "youtube": "@BluSpringg",
             "twitter": "BluSpringg",
-            "bluesky": "bluspring.xyz"
+            "bluesky": "bluspring.xyz",
+            "github": "BluSpring"
         },
         "role": "Lead Developer"
     },
@@ -684,7 +685,8 @@
             "twitch": "thefox580",
             "youtube": "",
             "twitter": "thefox580",
-            "bluesky": "thefox580.bsky.social"
+            "bluesky": "thefox580.bsky.social",
+            "github": "TheFox580"
         },
         "role": "Developer"
     },
