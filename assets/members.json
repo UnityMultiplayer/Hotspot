@@ -451,7 +451,7 @@
         "id": "adri4ns_",
         "name": "Adri",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:lead",
         "region": "",
         "pronouns": "he/him",
         "socials": {
@@ -466,7 +466,7 @@
         "id": "alychemist",
         "name": "Alyssa",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:creative",
         "region": "",
         "pronouns": "she/her",
         "socials": {
@@ -481,7 +481,7 @@
         "id": "bluspring",
         "name": "BluSpring",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:development",
         "region": "malaysia",
         "pronouns": "he/they",
         "socials": {
@@ -497,7 +497,7 @@
         "id": "cher0p",
         "name": "Lex",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:acting",
         "region": "",
         "pronouns": "he/she/they/it",
         "socials": {
@@ -512,7 +512,7 @@
         "id": "connerhawk",
         "name": "Conner",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:creative",
         "region": "",
         "pronouns": "he/him",
         "socials": {
@@ -527,7 +527,7 @@
         "id": "cypherag",
         "name": "Cypher",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:lead",
         "region": "",
         "pronouns": "she/her",
         "socials": {
@@ -542,7 +542,7 @@
         "id": "falcaograve",
         "name": "Falcao",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:creative",
         "region": "",
         "pronouns": "he/him",
         "socials": {
@@ -557,7 +557,7 @@
         "id": "harson_ist",
         "name": "Harson",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:acting",
         "region": "",
         "pronouns": "she/they/he",
         "socials": {
@@ -572,7 +572,7 @@
         "id": "skylarexe",
         "name": "Skye",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:creative",
         "region": "",
         "pronouns": "they/she",
         "socials": {
@@ -588,7 +588,7 @@
         "id": "insaneorbitzz",
         "name": "Orbitzz",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:acting",
         "region": "",
         "pronouns": "he/him",
         "socials": {
@@ -603,7 +603,7 @@
         "id": "rats_yknow",
         "name": "Rats",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:creative",
         "region": "",
         "pronouns": "she/her",
         "socials": {
@@ -618,7 +618,7 @@
         "id": "skribbleshark",
         "name": "SkribbleShark",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:creative",
         "region": "",
         "pronouns": "any",
         "socials": {
@@ -633,7 +633,7 @@
         "id": "songly",
         "name": "Songly",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:acting",
         "region": "",
         "pronouns": "any",
         "socials": {
@@ -648,7 +648,7 @@
         "id": "swaggyleilany",
         "name": "Lei",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:acting",
         "region": "",
         "pronouns": "she/her",
         "socials": {
@@ -663,7 +663,7 @@
         "id": "zanjoe",
         "name": "Zane",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:creative",
         "region": "",
         "pronouns": "he/they/any",
         "socials": {
@@ -678,7 +678,7 @@
         "id": "thefox580",
         "name": "TheFox580",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:development",
         "region": "",
         "pronouns": "any",
         "socials": {
@@ -694,7 +694,7 @@
         "id": "cephaloncosmic",
         "name": "Storm",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:development",
         "region": "",
         "pronouns": "she/they",
         "socials": {
@@ -710,7 +710,7 @@
         "id": "theoclouds",
         "name": "TheoClouds",
         "platform": "twitch",
-        "faction": "unity_team",
+        "faction": "unity_team:lead",
         "region": "",
         "pronouns": "he/him",
         "socials": {

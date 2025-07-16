@@ -5,39 +5,33 @@
     <div>
       <h3 class="text-4xl font-semibold py-4">Project Leads</h3>
       <MembersSection>
-        <MemberCard id="theoclouds" :is-live="true" />
-        <MemberCard id="cypherag" :is-live="true" />
-        <MemberCard id="adri4ns_" :is-live="true" />
+        <template v-for="id in members.filter(m => m.faction.endsWith('lead')).map(m => m.id).sort(nameSort).reverse()" :key="id">
+          <MemberCard :id="id" :is-live="true" />
+        </template>
       </MembersSection>
     </div>
     <div>
       <h3 class="text-4xl font-semibold py-4">Development Branch</h3>
       <MembersSection>
-        <MemberCard id="bluspring" :is-live="true" />
-        <MemberCard id="thefox580" :is-live="true" />
-        <memberCard id="cephaloncosmic" :is-live="true" />
+        <template v-for="id in members.filter(m => m.faction.endsWith('development')).map(m => m.id).sort(nameSort)" :key="id">
+          <MemberCard :id="id" :is-live="true" />
+        </template>
       </MembersSection>
     </div>
     <div>
       <h3 class="text-4xl font-semibold py-4">Creative Branch</h3>
       <MembersSection>
-        <MemberCard id="zanjoe" :is-live="true" />
-        <MemberCard id="falcaograve" :is-live="true" />
-        <MemberCard id="rats_yknow" :is-live="true" />
-        <MemberCard id="skylarexe" :is-live="true" />
-        <MemberCard id="connerhawk" :is-live="true" />
-        <MemberCard id="alychemist" :is-live="true" />
-        <MemberCard id="skribbleshark" :is-live="true" />
+        <template v-for="id in members.filter(m => m.faction.endsWith('creative')).map(m => m.id).sort(nameSort)" :key="id">
+          <MemberCard :id="id" :is-live="true" />
+        </template>
       </MembersSection>
     </div>
     <div>
       <h3 class="text-4xl font-semibold py-4">Acting Branch</h3>
       <MembersSection>
-        <MemberCard id="songly" :is-live="true" />
-        <MemberCard id="harson_ist" :is-live="true" />
-        <MemberCard id="cher0p" :is-live="true" />
-        <MemberCard id="swaggyleilany" :is-live="true" />
-        <MemberCard id="insaneorbitzz" :is-live="true" />
+        <template v-for="id in members.filter(m => m.faction.endsWith('acting')).map(m => m.id).sort(nameSort)" :key="id">
+          <MemberCard :id="id" :is-live="true" />
+        </template>
       </MembersSection>
     </div>
     <div>
@@ -67,6 +61,23 @@ a:hover {
 <script setup lang="ts">
 import MembersSection from "~/components/members/MembersSection.vue";
 import MemberCard from "~/components/members/MemberCard.vue";
+
+import membersData from '~/assets/members.json';
+
+const members = ref(membersData.filter(m => m.faction.startsWith('unity_team')))
+
+function nameSort(a: string, b: string): number {
+  if (a < b) {
+    return -1
+  }
+
+  if (a > b) {
+    return 1
+  }
+
+  return 0
+}
+
 
 definePageMeta({
     name: 'Credits'

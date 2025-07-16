@@ -36,7 +36,7 @@ definePageMeta({
     name: 'Home'
 });
 
-const members = ref(membersData.filter(a => a.faction != 'unity_team'))
+const members = ref(membersData.filter(a => !a.faction.startsWith('unity_team')))
 const { status, data: check_live } = await useLazyFetch('/api/check_live')
 const live = ref(check_live)
 
