@@ -2,7 +2,7 @@
     <div class="h-screen">
         <Navbar />
         <NuxtPage />
-        <FooterComp />
+        <FooterBar />
         <!--<div class="bg2 h-screen w-screen fixed top-0 left-0 -z-50"></div>-->
     </div>
 </template>
@@ -118,6 +118,7 @@
 
 <script setup lang="ts">
   import Navbar from "~/components/navbar/Navbar.vue";
+  import FooterBar from "~/components/FooterBar.vue";
 
   import '~/assets/fonts/Montserrat-Italic.ttf'
   import '~/assets/fonts/Montserrat.ttf'
