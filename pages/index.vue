@@ -5,7 +5,7 @@
         <h2 class="text-center text-5xl pb-3 font-semibold">Member</h2>
         
         <div class="py-3">
-            <h3 class="text-center text-4xl pb-3 text-[#FF4848]">
+            <h3 class="text-center text-4xl pb-3 text-(--text-live)">
                 <span class="material-symbols-outlined">circle</span> Currently Live
             </h3>
             <MembersSection v-if="status !== 'pending'">
