@@ -7,13 +7,14 @@
     </div>
 </template>
 
-<style lang="css">
+<style lang="scss">
   /* I don't like this. ~Storm */
   @import url('https://gists.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+  @theme {
+    --font-sans: Manrope, GothamPro, Roboto, 'Segoe UI', sans-serif;
+  }
 
   body {
     -webkit-user-select: none;
