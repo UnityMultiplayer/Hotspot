@@ -17,19 +17,15 @@
   }
 
   body {
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    overflow-y: auto;
-    overflow-x: hidden;
+    //text-shadow: 1px 1px 1px var(--text-shadow);
 
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    //font-family: GothamPro, Roboto, 'Segoe UI', sans-serif;
   }
 
   main {
     overflow-y: auto;
-    font-family: GothamPro, 'Segoe UI', sans-serif;
   }
 
   img {
@@ -53,10 +49,7 @@
     border-radius: 100px;
   }
 
-  .hidden {
-    display: none !important;
-  }
-
+  /* Light mode */
   :root {
     --bg-checker-color1: #f7f6f2;
     --bg-checker-color2: #e8eaeb;
@@ -71,6 +64,7 @@
     --text-live: #FF4848;
   }
 
+  /* Dark mode */
   @media (prefers-color-scheme: dark) {
     :root {
       --bg-checker-color1: #181a1f;
@@ -97,24 +91,6 @@
   .unity-button {
     background-color: var(--text-buttons);
   }
-
-  body {
-    /*background: rgb(236, 236, 236);*/
-    /*background-image: linear-gradient(45deg, var(--bg-checker-color1) 25%, var(--bg-checker-color2) 25%),
-        linear-gradient(-45deg, var(--bg-checker-color1) 25%, var(--bg-checker-color2) 25%),
-        linear-gradient(45deg, var(--bg-checker-color2) 75%, var(--bg-checker-color1) 75%),
-        linear-gradient(-45deg, var(--bg-checker-color2) 75%, var(--bg-checker-color1) 75%);*/
-    background: 50% / 50px 50px;
-    background-image: repeating-conic-gradient(var(--bg-checker-color1) 0% 25%, var(--bg-checker-color2) 0% 50%);
-    color: var(--text-main);
-    font-family: GothamPro, Roboto, 'Segoe UI', sans-serif;
-  }
-</style>
-
-<style scoped>
-    .bg2 {
-        background-image: linear-gradient(45deg, var(--bg-gradient-color1), var(--bg-gradient-color2));
-    }
 </style>
 
 <script setup lang="ts">
