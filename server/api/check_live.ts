@@ -1,4 +1,3 @@
-import fs from 'fs';
 import TwitchAuth from '../utils/TwitchAuth';
 import TwitchRest from '../utils/TwitchRest';
 
