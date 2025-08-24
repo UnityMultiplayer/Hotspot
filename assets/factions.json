@@ -1,18 +1,30 @@
 {
     "emberhold": {
         "name": "Emberhold",
-        "color": "#e60631"
+        "color": "#F14C4C"
     },
     "suncrest": {
         "name": "Suncrest",
-        "color": "#fee63c"
+        "color": "#FFD152"
     },
     "fernfall": {
         "name": "Fernfall",
-        "color": "#8ce41a"
+        "color": "#26D167"
     },
-    "unity_team": {
-        "name": "Unity Team",
-        "color": "#2a91ff"
+    "unity_team:lead": {
+        "name": "Team Lead",
+        "color": "rgb(195, 122, 255)"
+    },
+    "unity_team:development": {
+        "name": "Development Branch",
+        "color": "rgb(102, 209, 255)"
+    },
+    "unity_team:creative": {
+        "name": "Creative Branch",
+        "color": "rgb(195, 239, 60)"
+    },
+    "unity_team:acting": {
+        "name": "Acting Branch",
+        "color": "rgb(255, 176, 46)"
     }
 }
