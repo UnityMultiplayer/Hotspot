@@ -42,20 +42,6 @@
         }
     },
     {
-        "id": "infiniite8",
-        "name": "Infiniite8",
-        "platform": "twitch",
-        "faction": "emberhold",
-        "region": "",
-        "pronouns": "he/him",
-        "socials": {
-            "twitch": "infiniite8",
-            "youtube": "@infiniite8",
-            "twitter": "Infiniite8",
-            "bluesky": "infiniite8.bsky.social"
-        }
-    },
-    {
         "id": "maddieawesome",
         "name": "MaddieAWESOME",
         "platform": "twitch",
