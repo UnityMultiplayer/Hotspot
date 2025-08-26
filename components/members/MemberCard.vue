@@ -37,7 +37,7 @@
   const member = ref((members as Array<Member>).find(member => member.id == props.id)!);
   const faction = ref((factions as Factions)[member.value.faction])
 
-  const { status, data: fetch_avatar } = await useLazyFetch(`/api/fetch_avatar?id=${props.id}`);
+  const { status, data: fetch_avatar } = await useLazyFetch(`/api/fetch_avatar?id=${member.value.socials.twitch}`);
   const avatar = ref(fetch_avatar)
 
   watch(fetch_avatar, newAvatar => avatar.value = newAvatar)
